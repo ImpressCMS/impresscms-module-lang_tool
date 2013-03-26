@@ -1,0 +1,20 @@
+
+=========================================================
+15.03.2013 - Version 1.0 Beta
+=========================================================
+
+Based in lang_tool module (0.0761 release) by Finjon Kiang (http://twpug.net)
+
+Added:
+
+- Language Constants for new features and clarify the translation steps.
+- index.html is added in zip file (#340 fixed).
+https://impresscmsdev.assembla.com/spaces/impresscmsaddons/tickets/340#/activity/ticket:
+- mail_template folder creation if language folder is writable (index.html file is added to).
+- Resizable textarea (better for DSC defines translation -based in https://github.com/rkivalin/jquery-autogrow).
+- Rezisable columns.
+- Module Administration Integration.
+- CSS now is rendered for ImpressCMS classes.
+- About page.
+- Image files for Administration.
+- HTML tags used in defines are not convert to entities now.

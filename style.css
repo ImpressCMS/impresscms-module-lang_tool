@@ -1,0 +1,17 @@
+.form {line-height:120%;padding:5px;}
+.form p, .lang p {padding:5px 0;}
+.lang {border:1px solid #cacaca;padding:10px}
+.langtool {padding:3px;}
+#langtool th {font-weight: bold}
+
+#langtool td {vertical-align: top}
+.resize2 {-webkit-transition-duration: 400ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-duration: 400ms;
+    -moz-transition-property: width, background;
+    -moz-transition-timing-function: ease;
+    -o-transition-duration: 400ms;
+    -o-transition-property: width, background;
+    -o-transition-timing-function: ease;
+}

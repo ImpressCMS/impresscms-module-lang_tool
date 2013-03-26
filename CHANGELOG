@@ -1,0 +1,11 @@
+0.0761 --- 11/16/2007
+Remove the BOM characters in admin/index.php & admin/function.php, thanks mikhail.
+0.076 --- 11/04/2007
+1. include/function.php: function lang_trans()
+Add the ability to identify syntax which mixed with strings and varibles. Like
+define('JUST_TEST', 'Hello, ' . $username . ', how\'s everything');
+2. step3.php
+Set a focus anchor to the file previous selected and highlight the name. There's a link in the top of the page to guide user to that anchor.
+3. step1.php
+Add a column for user to set the path manually. Useful if the writable path outside of default one.
+4. Fix a problem if you want to translate from non-English language to English

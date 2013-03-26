@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" media="all" href="<{$icms_url}>/modules/lang_tool/style.css" />
+<script  src="<{$icms_url}>/modules/lang_tool/js/jquery-autogrow.min.js"></script>
+<script  src="<{$icms_url}>/modules/lang_tool/js/colResizable-1.3.min.js"></script>
+
+<script>
+	$(function() {
+		$("#langtool").colResizable({
+			liveDrag:true, 
+			draggingClass:"dragging", 
+			onResize:onSampleResized});
+			function resizeInput() {
+    $(this).attr('size', $(this).val().length+2);
+}   
+  $( ".resize" ).resizable();
+		var onSampleResized = function(e){
+			var columns = $(e.currentTarget).find("th");
+			var msg = "columns widths: ";
+			columns.each(function(){ msg += $(this).width() + "px; "; })
+		};	
+$('.resize2').autoGrow({
+  comfortZone: 2 // default value
+});
+// or just
+$('.resize2').autoGrow(40);
+})(jQuery);
+</script>
+	
+<div class="lang">
+<{$content}>
+</div>
