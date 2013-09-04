@@ -33,11 +33,11 @@ $modversion = array(
 		"image"						=> "images/icon_big.png", /* for backward compatibility */
 	
 	/**  Development information */
-		"status_version"			=> "Beta",
-		"status"					=> "Beta",
-		"date"						=> "15/03/2013",
+		"status_version"			=> "Final",
+		"status"					=> "Final",
+		"date"						=> "04/09/2013",
 		"author_word"				=> "",
-		"warning"					=> _CO_ICMS_WARNING_BETA,
+		"warning"					=>  _CO_ICMS_WARNING_FINAL,
 		
 	
 	/** Administrative information */
